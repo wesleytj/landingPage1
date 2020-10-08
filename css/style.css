@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";	
+}
+@font-face{
+	src:url('../fonts/OpenSans-Semibold.ttf');
+	font-family: "OpenSans-Semibold";
+}
+
+.center{
+	width: 1280px;/*largura*/
+	margin: 0 auto;/*para centralizar*/
+}
+
+.header{
+	min-width: 1280px;
+	width: 100%;
+	height: 60px;
+	background-color: #00ffff;
+}
+
+.header img{
+	width: 200px;
+	margin-top: 15px;	
+}
+
+.container-banner{		
+	background-image: url(../img/bg_01.jpg);
+	min-width: 1280px;
+	width: 100%;
+	height: 560px;	
+}
+
+.container-banner > .center{
+	height: 100%;
+}
+
+.form{
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top: -22px;
+	background-color: white;
+	border:8px solid #59ffd3;
+}
+
+.form h2{
+	font-weight: normal;
+	color: #024735;
+	font-size:17px;
+	margin: 15px 10px;
+}
+
+.input-container{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	font-size: 13px;
+	font-family: "OpenSans-Semibold";
+}
+
+.form p{
+	display: inline-block;
+	width: 100%;
+	font-size: 15px;
+	font-family: bold;
+	margin: 20px 10px;
+}
+
+.input-container input[type="text"]{
+	width: 344px;
+	height: 55px;
+	border: 1px solid #024735;
+	margin-top: 10px;
+}
+
+.input-submit-container{
+	text-align: center;
+}
+
+.form input[type="submit"]{
+	width: 280px;
+	height: 56px;
+	background-color: #0cc292;	
+	color: white;
+	font-size: 20px;
+	font-family: bold;
+	display: inline-block;
+	border-right: 2px solid #06916d;
+	border-left: 4px solid #06916d;
+	border-top: 2px solid #06916d;
+	border-bottom: 8px solid #1df5bc;
+	cursor: pointer;
+}
+.form input[type="submit"]:hover{
+	background-color: #07b587;
+	border-bottom: 8px solid #17e6af;
+}
+
+.container-list{
+	padding: 50px;
+	margin-top: 40px;
+	float: left;
+	width: 600px;
+	height: 300px;
+	background-color: rgba(167,252,230,0.7);
+}
+
+.container-list ul{
+	list-style-position: inside;
+}
+
+.container-list ul li{
+	margin-top: 15px;	
+	font-family: "OpenSans-Semibold";
+	text-shadow: -1px 1px 2px #59ffd3;
+}
+
+.container2{
+	min-width: 1280px;
+	padding: 100px 0;
+	background-color: #a1f7f6;
+	text-align: center;	
+}
+
+.container2 h2{
+	font-weight: normal;
+}
+
+.container2 p{
+	text-align: left;
+	margin-top: 20px;
+}
+
+@keyframes anime{
+	from{bottom: 1px;}
+	to{top: 0px;}
+}
+
+#arrow {animation-timing-function: ease-in-out;}
+
+.arrow{
+	position: relative;	
+	top: -35px;	
+	left: 50%;
+	margin-left: -17px;
+	width: 35px;
+	height: 35px;	
+	background-image: url('../img/seta_baixo.png');
+	background-size: 100% 100%;
+	animation: anime 0.7s infinite;
+}
+
+.perfil{
+	width: 100%;
+	height: 600px;
+}
+
+.section1{
+	width: 100%;	
+}
+
+.section1 h2{
+	text-align: center;
+	font-weight: normal;		
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+.container-section{	
+	text-align: center;
+}
+
+.container-single{
+	box-sizing: border-box;
+	width: 33.333%;		
+	float: left;
+	padding: 0 10px;	
+}
+
+.text-container-single{
+
+}
+
+.text-container-single h2{	
+	margin-top: 0;
+}
+
+.text-container-single p{	
+	margin-top: 15px;
+	margin-bottom: 100px;
+	text-align: left;	
+}
+
+.container-single > div > img{
+	width: 70px;
+	margin: 15px auto;		
+}
+
+.footer{
+	clear: both;
+	/*border-top: 4px solid #00ffff;*/
+	background-color: #a1f7f6;
+	padding: 20px 0;
+	margin-top: 10px;
+}
+
+.footer h4{
+	text-align: center;
+	font-family: "OpenSans-Semibold";
+}
+
+.footer p{
+	text-align: center;
+	font-family: "OpenSans-Semibold";
+	font-size: 14px;
+}
