@@ -15,13 +15,10 @@
 
 
 -------------//------Version-15-06-21----------//----------------
-
-
 ![Layout das páginas atuais](https://github.com/wesleytj/landingPage1/blob/master/Mockup/mockup-landingpage-leads.png)
 
 
 
 Author: Wesley Jacques
-
 
 Company: All Technology
